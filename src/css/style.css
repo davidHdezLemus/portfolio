@@ -11,6 +11,16 @@ h1 {
 }
 
 ul {
+  margin-top: 2rem;
   list-style-type: disc;
   padding-left: 50px;
+}
+
+.task1 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  border: solid black 1px;
+  width: 22rem;
+  padding: 5%;
+  border-radius: 10px;
 }
