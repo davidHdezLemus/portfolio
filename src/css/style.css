@@ -60,11 +60,12 @@ ul {
 
 .task {
   margin-top: 4rem;
-  border: solid black 1px;
+  border: 1px solid black;
   width: 24rem;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #9f711a;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 2);
+  height: 450px;
 }
 
 .info {
@@ -91,4 +92,5 @@ a:hover {
 
 img {
   width: 330px;
+  height: 170px;
 }
