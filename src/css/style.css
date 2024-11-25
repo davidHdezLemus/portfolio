@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  /*background-color: #f0f4f8;*/
   padding: 20px;
   min-width: 470px;
 
@@ -61,7 +60,8 @@ ul {
 .task {
   margin-top: 4rem;
   border: 1px solid black;
-  width: 24rem;
+  width: 90%;
+  max-width: 24rem;
   border-radius: 10px;
   background-color: #9f711a;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 2);
@@ -93,4 +93,11 @@ a:hover {
 img {
   width: 330px;
   height: 170px;
+}
+
+@media (max-width: 480px) {
+  .task {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
